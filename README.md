@@ -6,7 +6,7 @@ A Progressive Web Application that helps users track their budget! Easy, simple,
 ## Features
 
 - ```Add``` and ```subtract``` funds.
-![screenShot of main page](/public/images/main.jpg?raw=true)
+![screenShot of main page](/public/images/mainpage.jpg?raw=true)
 - App functions offline.
 - when a transaction happens Offline, Budget Tracker will upload it to the remote database as soon as the device is online. Don't worry you'll be notified!
 ![screenShot of alert message showing updated data after finding connection](/public/images/alert.jpg?raw=true)
