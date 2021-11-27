@@ -57,7 +57,7 @@ uploadTransaction = () => {
 
                 budgetObjectStore.clear()
 
-                alert('All saved transactions has been saved to database!')
+                alert('All offline transactions have been saved!')
             })
             .catch(err => {
                 console.log(err)
