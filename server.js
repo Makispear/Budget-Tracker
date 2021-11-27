@@ -21,6 +21,10 @@ mongoose.connect(MONGODB_URI, {
   useUnifiedTopology: true
 });
 
+mongoose.connection.on('error', (err) =>
+console.log(`MONGOOSE DISCONNECTED ERROR: ${err}`)
+);
+
 // routes
 app.use(require("./routes/api.js"));
 
