@@ -2,12 +2,14 @@
 # Budget Tracker 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://choosealicense.com/licenses/mit/)
 
-A Progressive Web Application that helps users track their budget!
+A Progressive Web Application that helps users track their budget! Easy, simple, and reliable!
 ## Features
 
 - ```Add``` and ```subtract``` funds.
-- App funcitons offline.
-- when a transaction is made offline it will update as soon as a connection has been found.
+![screenShot of main page](/public/images/main.jpg?raw=true)
+- App functions offline.
+- when a transaction happens Offline, Budget Tracker will upload it to the remote database as soon as the device is online. Don't worry you'll be notified!
+![screenShot of alert message showing updated data after finding connection](/public/images/alert.jpg?raw=true)
 
 ## Links
 - contact me via my personal [email](mailto:maki-miko@hotmail.com)
@@ -20,8 +22,7 @@ Copy and paste the following line in the terminal.
 git clone https://github.com/Makispear/Budget-Tracker.git
 ```
 ## Usage 
-First you need to ```npm install```. Then
-initialize the app and run the server by typing in the root of the project folder ```npm start``` or ```npm run dev``` to use ```nodemon``` .
+First, type ```npm install``` in root. Then, initialize the app and run the server by typing in the root of the project folder ```npm start``` or ```npm run dev``` to use ```nodemon``` .
     
 ## License
 
