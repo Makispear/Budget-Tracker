@@ -13,6 +13,7 @@ A Progressive Web Application that helps users track their budget! Easy, simple,
 
 ## Links
 - contact me via my personal [email](mailto:maki-miko@hotmail.com)
+- Check out the [website](https://bdget-trakr.herokuapp.com/)
 ## Installation
 
 Install Budget Tracker with npm. Open the terminal and navigate to where you'd like to download the project.
